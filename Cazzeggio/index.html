@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Vinicolo Wine Bar</title>
+</head>
+<body>
+  <div class="sfondo">
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="./cup-straw.svg" alt="Cup logo">Vinicolo Wine Bar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#top" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/vinicolowinebarvillasantamaria"  draggable="true">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./storia/index2.html">Storia</a></li>
+              <li><a class="dropdown-item" href="./Menu.pdf" target="_blank">Menu</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./vini/index1.html">Vini</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+  </div>
+</section>
+
+  
+<div class="px-4 py-5 my-5 text-center">
+    <img class="vinicolo" src="./image/Vinicolo.jpg" alt="" width="100%" height="100%">
+    <h1 class="display-5 fw-bold text-body-emphasis">Vinicolo Wine Bar</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Wine bar, taglieri di salumi e formaggi abruzzesi, carme alla griglia, hamburger fatti in casa.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center">
+        <a href="https://maps.app.goo.gl/TVgCKZzwx7G4AQD3A" 
+           class="btn btn-primary btn-lg px-4" 
+           target="_blank" 
+           rel="noopener noreferrer">
+           Dove siamo?
+        </a>
+        </div>
+      <div class="container text-center mt-5">
+        <!-- Checkbox nascosta per il controllo -->
+        <input type="checkbox" id="show-number" style="display: none;">
+        
+        <!-- Pulsante che agisce sulla checkbox -->
+        <label for="show-number" class="btn btn-outline-secondary btn-lg px-4">Prenota Subito</label>
+        
+        <!-- Numero di telefono -->
+        <p id="phone-number">Chiama: 328-411-0064</p>
+    </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/Cibo.jpg" class="d-block w-100" alt="Cibo">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Prima slide</h5>
+          <p>Ciò che puoi mangiare da noi!.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/Cantia.png" class="d-block w-100" alt="Cantina">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Seconda slide</h5>
+          <p>Un Vasto Assortimento di vini.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/Vino.jpg" class="d-block w-100" alt="Vino">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Terza slide</h5>
+          <p>Uno dei Nostri vini cult</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+     
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

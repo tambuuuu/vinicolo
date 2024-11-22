@@ -1,0 +1,124 @@
+/* Font importati */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  /* Sezione Hero */
+  .hero-section {
+    background-image: url('abruzzo-vineyard.jpg'); /* Sostituisci con l'immagine del vigneto */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px solid #ffd700;
+  }
+  
+  .hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .hero-section .title {
+    font-size: 3rem;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+  }
+  
+  /* Contenuti */
+  .content {
+    padding: 40px 20px;
+  }
+  
+  .story h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .story p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+    margin: 20px 0;
+  }
+  
+  /* Call-to-Action */
+  .cta {
+    background-color: #ffd700;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .cta h3 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cta .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .cta .btn:hover {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  .footer a {
+    color: #ffd700;
+    font-weight: 600;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

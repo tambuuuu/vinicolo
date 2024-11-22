@@ -1,0 +1,80 @@
+
+.sfondo{
+  background-color: rgb(252, 212, 142);
+}
+.vinicolo{
+  border-radius: 30%;
+}
+ 
+ /* Nasconde il numero di default */
+ #phone-number {
+    display: none;
+}
+
+/* Mostra il numero quando il pulsante viene cliccato */
+#show-number:checked ~ #phone-number {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #8b0000; /* Rosso vino */
+}
+
+#dove-siamo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.carousel-inner img {
+    max-width: 50%;  /* Puoi modificare questa percentuale in base alle tue esigenze */
+    margin: 0 auto;  /* Centra l'immagine orizzontalmente */
+  }
+ /* Nascondi tutte le sezioni di default */
+ .content-section {
+    display: none;
+  }
+
+  /* Mostra la sezione quando è attiva tramite l'ID */
+  :target {
+    display: block;
+  }
+
+  /* Stile personalizzato per la sezione storia */
+  #storia {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+
+  #storia h1 {
+    color: #8b0000; /* Rosso vino */
+    margin-bottom: 20px;
+  }
+
+  #storia p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  .dropdown-menu {
+    width: 300px; /* Imposta una larghezza fissa per il calendario */
+    max-width: 90%; /* Impedisce che la larghezza superi il 90% della finestra */
+    padding: 15px; /* Aggiungi un po' di padding per fare spazio */
+    box-sizing: border-box; /* Includi padding e bordi nel calcolo della larghezza */
+    font-size: 14px; /* Riduci la dimensione del testo */
+  }
+  
+  .cal-btn {
+    width: 30px; /* Rendi i pulsanti più piccoli */
+    height: 30px; /* Rendi i pulsanti più piccoli */
+    padding: 0; /* Rimuovi padding extra dai pulsanti */
+    font-size: 12px; /* Riduci la dimensione del testo nei pulsanti */
+  }
+  
+  .cal-month-name {
+    font-size: 16px; /* Riduci la dimensione del mese */
+  }
+  
+  .cal-weekday, .cal-btn {
+    display: inline-block; /* Mostra i giorni e i pulsanti affiancati */
+    text-align: center;
+  }

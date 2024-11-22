@@ -1,0 +1,128 @@
+/* Font importati */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  /* Sezione Hero */
+  .hero-section {
+    background-image: url('abruzzo-vineyard.jpg'); /* Sostituisci con la tua immagine */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px solid #ffd700;
+  }
+  
+  .hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .hero-section .title {
+    font-size: 3rem;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+  }
+  
+  /* Lista Vini */
+  .content {
+    padding: 40px 20px;
+  }
+  
+  .wine-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .wine {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .wine:hover {
+    transform: translateY(-10px);
+  }
+  
+  .wine-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 5px solid #ffd700;
+  }
+  
+  .wine h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .wine p {
+    font-size: 1rem;
+    padding: 0 20px 20px;
+    color: #666;
+  }
+  
+  /* Bottone Aggiuntivo */
+  a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  .footer a {
+    color: #ffd700;
+    font-weight: 600;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
